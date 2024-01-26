@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height: 100vh;
+    background: url('photo-1501854140801-50d01698950b.avif');
+    background-position: center;
+    background-size:cover;
+
+
+
+}
+.wrapper{
+    width: 420px;
+    height: 100%;
+    background:transparent;
+    color:white;
+    border:1px solid rgb(214, 211, 211);
+    backdrop-filter: blur(25px);
+    border-radius:10px;
+    padding:30px 40px;
+
+}
+.wrapper h1{
+    font-size: 30px;
+    text-align:center;
+   
+    
+}
+.wrapper .input-box{
+    position: relative;
+    width:100%;
+    height:50px; 
+    background:transparent;
+    margin:30px 0px;
+
+
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border:1px solid #fff;
+    border-radius:10px;
+    font-size:16px;
+    color: #fff;
+    padding:20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color:#fff;
+}
+
+.input-box i{
+    position: absolute;
+    right:20px;
+    
+    top:30%;
+    font-size:20px;
+}
+.wrapper.remember-forgot{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    margin:-15px 0 15px;
+
+
+}
+.remember-forgot{
+    width: 100%;
+    /* border: 2px solid bla    ck; */
+    margin-bottom: 15px;
+}
+.remember-forgot a{
+    color:#e8dddd;
+    position: relative;
+    /* text-align: right; */
+    left: 25%;
+    text-decoration: none;
+}
+.remember-forgot label input{
+    margin-right:3px;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width:100%;
+    border-radius:1.5px;
+   height: 45px;
+   border:none;
+   outline:none;
+   border-radius:45px;
+   margin-top: 2px;
+   font-size: 14px;
+   font-weight: 600;
+   background-color: rgb(75, 194, 75);
+}
